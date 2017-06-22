@@ -1,0 +1,15 @@
+[loadbalancer]
+kittu27313.mylabserver.com
+
+[database]
+kittu27312.mylabserver.com
+
+[webserver]
+kittu27314.mylabserver.com
+
+[appserver]
+kittu27315.mylabserver.com
+kittu27316.mylabserver.com
+
+[control]
+kittu27311.mylabserver.com   ansible_connection=local

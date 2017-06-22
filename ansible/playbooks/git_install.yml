@@ -1,0 +1,6 @@
+---
+- hosts: control
+  become: true
+  tasks:
+   - name: GIT INSTALL
+     apt: name=git state=present update_cache=yes
